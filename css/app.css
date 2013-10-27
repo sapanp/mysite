@@ -1,6 +1,14 @@
 .label.resume {
-    background-color: #000000;
-    color: white;
+     background-color: #ADADAD;
+     color: white;
+ }
+.active .label.resume {
+    background-color: #7D7D7D;
+}
+
+.top-bar-section>ul>.divider, .top-bar-section>ul>[role="separator"] {
+    border-left-color: #949494;
+    border-right-color: #949494;
 }
 
 body {
@@ -8,19 +16,27 @@ body {
     *  White canvas
     */
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
-
     font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
 }
 
 .top-bar {
     /*For bigger Title*/
     font-size: 120%;
+    background-color: #ADADAD;
+}
+
+.top-bar-section li a:not(.button) {
+    background-color: #ADADAD;
+}
+.top-bar-section ul li.active>a {
+    background-color: #7D7D7D;
 }
 
 h1 small {
     /*For sub title Top Nav*/
     /*font-size: 60%;*/
     color: #ffffff;
+    /*background-color: #595959;*/
 }
 
 .font-1000 {
